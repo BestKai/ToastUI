@@ -181,7 +181,7 @@ extension ToastView {
   }
 }
 
-struct DefaultToastView<Background, Label, Content>: View
+public struct DefaultToastView<Background, Label, Content>: View
   where Background: View, Label: View, Content: View {
   private var background: Background
   private var label: Label
